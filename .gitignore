@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+/config/config.js
+/config/gcloud-service-account.json
+/config/gcloud-service-accont-df-client.json

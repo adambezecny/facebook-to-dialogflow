@@ -1,0 +1,26 @@
+{
+  "name": "facebook-to-dialogflow",
+  "version": "0.0.0",
+  "description": "Simple Facebook-to-DialogFlow bridge",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Adam Bezecny",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.16.3",
+    "apiai": "^4.0.3",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dialogflow": "^0.1.0",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "log4js-config": "^0.1.1",
+    "morgan": "~1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "~2.4.5"
+  }
+}
